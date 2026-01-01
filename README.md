@@ -17,40 +17,46 @@
 
 > All papers are in chronological order, from newest to oldest
 
-1. **LoRA-Edit: Controllable First-Frame-Guided Video Editing via Mask-Aware LoRA Fine-Tuning**, 2025-06, https://arxiv.org/abs/2506.10082
+1. **ContextFlow: Training-Free Video Object Editing via Adaptive Context Enrichment**, 2025-09, https://arxiv.org/abs/2509.17818
+   > 简介: 针对对象级编辑（插入、删除、交换）提出的免训练方法。虽然不纯粹依赖首帧，但它通过动态融合原始视频和编辑目标的上下文信息（Adaptive Context Enrichment），解决了 GenProp 等传播类方法在复杂运动下的保真度问题。
+
+2. **FlowV2V: Consistent Video Editing as Flow-Driven Image-to-Video Generation**, 2025-06, https://arxiv.org/abs/2506.07713
+   > 简介: 将视频编辑明确分解为“首帧编辑”和“流驱动的 I2V 生成”。利用光流（Optical Flow）作为强几何约束，指导 I2V 模型将首帧的形变精确传播到后续帧，显著提升了时序一致性。
+
+3. **LoRA-Edit: Controllable First-Frame-Guided Video Editing via Mask-Aware LoRA Fine-Tuning**, 2025-06, https://arxiv.org/abs/2506.10082
    > 简介: 提出了一种基于 Mask 的 LoRA 微调方法，专门用于首帧引导的视频编辑。它可以精确控制编辑区域并保护背景，解决了现有方法在后续帧中灵活性不足的问题。
 
-2. **Go-with-the-Flow: Motion-Controllable Video Diffusion Models Using Real-Time Warped Noise**, 2025-01, https://arxiv.org/abs/2501.08331
+4. **Go-with-the-Flow: Motion-Controllable Video Diffusion Models Using Real-Time Warped Noise**, 2025-01, https://arxiv.org/abs/2501.08331
    > 简介: 利用光流（Optical Flow）和噪声变形（Warped Noise）技术，实现通过编辑第一帧来控制视频的生成和风格化，具有极高的时序一致性。
 
-3. **GenProp: Propagating Generation for Video Editing (CVPR 2025)**, 2024-12, https://arxiv.org/abs/2412.19761
+5. **GenProp: Propagating Generation for Video Editing (CVPR 2025)**, 2024-12, https://arxiv.org/abs/2412.19761
    > 简介: Adobe Research 提出的生成式视频传播框架。利用图像到视频（I2V）生成模型的先验知识，将首帧的编辑（包括对象移除、插入、形状改变）智能传播到全视频。
 
-4. **InsViE-1M: Effective Instruction-based Video Editing with Elaborate Dataset Construction (InsV2V)**, 2024-12, https://arxiv.org/abs/2412.XXXXX (ICCV 2025)
+6. **InsViE-1M: Effective Instruction-based Video Editing with Elaborate Dataset Construction (InsV2V)**, 2024-12, https://arxiv.org/abs/2412.XXXXX (ICCV 2025)
    > 简介: 虽然主打指令编辑，但相关工作 InsV2V 探讨了视频生成模型在编辑中的应用，并构建了大规模数据集，常与 AnyV2V 等首帧方法进行对比。
 
-5. **I2VEdit: First-Frame-Guided Video Editing via Image-to-Video Diffusion Models**, 2024-05, https://arxiv.org/abs/2405.16537
+7. **I2VEdit: First-Frame-Guided Video Editing via Image-to-Video Diffusion Models**, 2024-05, https://arxiv.org/abs/2405.16537
    > 简介: 利用预训练的 Image-to-Video 模型，通过粗略运动提取和外观细化，将首帧的编辑传播到整个视频，支持全局和局部编辑。
 
-6. **ReVideo: Remake a Video with Motion and Content Control**, 2024-05, https://arxiv.org/abs/2405.13865
+8. **ReVideo: Remake a Video with Motion and Content Control**, 2024-05, https://arxiv.org/abs/2405.13865
    > 简介: 允许用户通过修改第一帧来控制视频内容，同时通过轨迹控制运动，实现了内容和运动的解耦编辑。
 
-7. **AnyV2V: A Plug-and-Play Framework For Any Video-to-Video Editing Tasks**, 2024-03, https://arxiv.org/abs/2403.14468
+9. **AnyV2V: A Plug-and-Play Framework For Any Video-to-Video Editing Tasks**, 2024-03, https://arxiv.org/abs/2403.14468
    > 简介: 一个即插即用的框架，核心思想是“编辑第一帧 + I2V 生成”。兼容任何图像编辑工具（如 InstructPix2Pix），通过 I2V 模型进行特征注入以保持一致性。
 
-8. **CoDeF: Content Deformation Fields for Temporally Consistent Video Processing (CVPR 2024)**, 2023-08, https://arxiv.org/abs/2308.07926
+10. **CoDeF: Content Deformation Fields for Temporally Consistent Video Processing (CVPR 2024)**, 2023-08, https://arxiv.org/abs/2308.07926
    > 简介: 提出“规范内容场”（Canonical Content Field），将视频分解为静态全景图和变形场。用户只需编辑这张静态全景图（类似于关键帧），即可自动传播到整个视频。
 
-9. **TokenFlow: Consistent Diffusion Features for Consistent Video Editing**, 2023-07, https://arxiv.org/abs/2307.10373
+11. **TokenFlow: Consistent Diffusion Features for Consistent Video Editing**, 2023-07, https://arxiv.org/abs/2307.10373
    > 简介: 通过在扩散特征空间中强制特征一致性来实现视频编辑。支持关键帧编辑模式，确保编辑后的特征能够基于对应关系传播。
 
-10. **Text2Video-Zero: Text-to-Image Diffusion Models are Zero-Shot Video Editors**, 2023-03, https://arxiv.org/abs/2303.13439
+12. **Text2Video-Zero: Text-to-Image Diffusion Models are Zero-Shot Video Editors**, 2023-03, https://arxiv.org/abs/2303.13439
     > 简介: 无需训练，通过重编程注意力机制（Cross-Frame Attention），让后续帧参考第一帧的生成特征，实现风格迁移和编辑。
 
-11. **FateZero: Fusing Attentions for Zero-shot Text-based Video Editing**, 2023-03, https://arxiv.org/abs/2303.09535
+13. **FateZero: Fusing Attentions for Zero-shot Text-based Video Editing**, 2023-03, https://arxiv.org/abs/2303.09535
     > 简介: 零样本视频编辑方法，通过在反演过程中融合注意力图来保持结构和运动，虽然主打文字编辑，但其注意力控制机制是后续很多传播方法的基础。
 
-12. **EbSynth: Stylizing Video by Example**, 2019, https://arxiv.org/abs/1905.02923
+14. **EbSynth: Stylizing Video by Example**, 2019, https://arxiv.org/abs/1905.02923
     > 简介: 经典的非深度学习方法，基于 Patch 的纹理合成技术。用户手动绘制关键帧，算法自动根据光流将风格传播到其他帧。
 ---
 
