@@ -32,7 +32,7 @@
 5. **GenProp: Propagating Generation for Video Editing (CVPR 2025)**, 2024-12, https://arxiv.org/abs/2412.19761
    > 简介: Adobe Research 提出的生成式视频传播框架。利用图像到视频（I2V）生成模型的先验知识，将首帧的编辑（包括对象移除、插入、形状改变）智能传播到全视频。
 
-6. **InsViE-1M: Effective Instruction-based Video Editing with Elaborate Dataset Construction (InsV2V)**, 2024-12, https://arxiv.org/abs/2412.XXXXX (ICCV 2025)
+6. **InsViE-1M: Effective Instruction-based Video Editing with Elaborate Dataset Construction (InsV2V)**, 2024-12, https://openaccess.thecvf.com/content/ICCV2025/html/Wu_InsViE-1M_Effective_Instruction-based_Video_Editing_with_Elaborate_Dataset_Construction_ICCV_2025_paper.html
    > 简介: 虽然主打指令编辑，但相关工作 InsV2V 探讨了视频生成模型在编辑中的应用，并构建了大规模数据集，常与 AnyV2V 等首帧方法进行对比。
 
 7. **I2VEdit: First-Frame-Guided Video Editing via Image-to-Video Diffusion Models**, 2024-05, https://arxiv.org/abs/2405.16537
@@ -56,8 +56,6 @@
 13. **FateZero: Fusing Attentions for Zero-shot Text-based Video Editing**, 2023-03, https://arxiv.org/abs/2303.09535
     > 简介: 零样本视频编辑方法，通过在反演过程中融合注意力图来保持结构和运动，虽然主打文字编辑，但其注意力控制机制是后续很多传播方法的基础。
 
-14. **EbSynth: Stylizing Video by Example**, 2019, https://arxiv.org/abs/1905.02923
-    > 简介: 经典的非深度学习方法，基于 Patch 的纹理合成技术。用户手动绘制关键帧，算法自动根据光流将风格传播到其他帧。
 ---
 
 ## 🛠️ Tools
