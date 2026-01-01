@@ -1,7 +1,4 @@
-# Awesome-First-Frame-Guided-Video-Editing
-The latest "First-Frame Guided Video Editing" papers and projects have been sorted in reverse chronological order.
-
-# Awesome-First-Frame-Video-Editing 🎬
+# Awesome-First-Frame-Guided-Video-Editing 🎬
 
 > This repository catalogs cutting-edge research papers, practical tools, and open source projects for First-Frame Guided Video Editing, where edits on the first frame are propagated to the entire video.
 
