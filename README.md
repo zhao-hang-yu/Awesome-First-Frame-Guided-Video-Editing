@@ -45,7 +45,7 @@
 
 
 ---
-else:
+else: [It is also guided by the first frame, but not the "model's guidance for subsequent video editing based on the edited first frame uploaded by the user" that we are referring to.]
 1. **InsViE-1M: Effective Instruction-based Video Editing with Elaborate Dataset Construction (InsV2V)**, 2024-12, https://openaccess.thecvf.com/content/ICCV2025/html/Wu_InsViE-1M_Effective_Instruction-based_Video_Editing_with_Elaborate_Dataset_Construction_ICCV_2025_paper.html
     > 简介: 虽然主打指令编辑，但相关工作 InsV2V 探讨了视频生成模型在编辑中的应用，并构建了大规模数据集，常与 AnyV2V 等首帧方法进行对比。
 
