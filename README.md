@@ -46,16 +46,16 @@
 
 ---
 else:
-6. **InsViE-1M: Effective Instruction-based Video Editing with Elaborate Dataset Construction (InsV2V)**, 2024-12, https://openaccess.thecvf.com/content/ICCV2025/html/Wu_InsViE-1M_Effective_Instruction-based_Video_Editing_with_Elaborate_Dataset_Construction_ICCV_2025_paper.html
-   > 简介: 虽然主打指令编辑，但相关工作 InsV2V 探讨了视频生成模型在编辑中的应用，并构建了大规模数据集，常与 AnyV2V 等首帧方法进行对比。
+1. **InsViE-1M: Effective Instruction-based Video Editing with Elaborate Dataset Construction (InsV2V)**, 2024-12, https://openaccess.thecvf.com/content/ICCV2025/html/Wu_InsViE-1M_Effective_Instruction-based_Video_Editing_with_Elaborate_Dataset_Construction_ICCV_2025_paper.html
+    > 简介: 虽然主打指令编辑，但相关工作 InsV2V 探讨了视频生成模型在编辑中的应用，并构建了大规模数据集，常与 AnyV2V 等首帧方法进行对比。
 
-11. **TokenFlow: Consistent Diffusion Features for Consistent Video Editing**, 2023-07, https://arxiv.org/abs/2307.10373
-   > 简介: 通过在扩散特征空间中强制特征一致性来实现视频编辑。支持关键帧编辑模式，确保编辑后的特征能够基于对应关系传播。
+2. **TokenFlow: Consistent Diffusion Features for Consistent Video Editing**, 2023-07, https://arxiv.org/abs/2307.10373
+    > 简介: 通过在扩散特征空间中强制特征一致性来实现视频编辑。支持关键帧编辑模式，确保编辑后的特征能够基于对应关系传播。
 
-12. **Text2Video-Zero: Text-to-Image Diffusion Models are Zero-Shot Video Editors**, 2023-03, https://arxiv.org/abs/2303.13439
+3. **Text2Video-Zero: Text-to-Image Diffusion Models are Zero-Shot Video Editors**, 2023-03, https://arxiv.org/abs/2303.13439
     > 简介: 无需训练，通过重编程注意力机制（Cross-Frame Attention），让后续帧参考第一帧的生成特征，实现风格迁移和编辑。
 
-13. **FateZero: Fusing Attentions for Zero-shot Text-based Video Editing**, 2023-03, https://arxiv.org/abs/2303.09535
+4. **FateZero: Fusing Attentions for Zero-shot Text-based Video Editing**, 2023-03, https://arxiv.org/abs/2303.09535
     > 简介: 零样本视频编辑方法，通过在反演过程中融合注意力图来保持结构和运动，虽然主打文字编辑，但其注意力控制机制是后续很多传播方法的基础。
 
 
