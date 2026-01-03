@@ -79,7 +79,6 @@ else:
 - **[ReVideo](https://github.com/MC-E/ReVideo)** - 旨在解决本地视频编辑的问题。编辑目标包括视觉内容和运动轨迹的修改。
 - **[AnyV2V](https://github.com/TIGER-AI-Lab/AnyV2V)** - 一个通用的视频编辑框架，支持将任何图像编辑工具扩展到视频。
 - **[CoDeF](https://github.com/ant-research/CoDeF)** - 将视频分解为静态全景图和变形场，只需编辑这张静态全景图，即可自动传播到整个视频。
-
 - 上述 ContextFlow、FlowV2V、GenProp 暂未开源
 
 
