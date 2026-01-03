@@ -69,15 +69,19 @@ else:
 - **[Pika](https://pika.art/)** - 著名的 AI 视频生成工具。其 "Modify Region" 或 "Pikaframes" 功能允许用户控制首尾帧或特定区域来进行视频编辑和扩展。
 - **[Runway Gen-1/Gen-2](https://runwayml.com/)** - 提供 "Video to Video" 模式，允许通过参考图像（第一帧风格）来驱动视频生成。
 - **[EbSynth (Software)](https://ebsynth.com/)** - 免费且强大的工具，专门用于将关键帧的绘画风格传播到视频中，被广泛用于动画制作。
+
 ---
 
 ## 🚀 Open Source Projects
 - **[LoRA-Edit](https://github.com/cjeen/LoRAEdit)** - 实现了基于 Mask 的 LoRA 首帧编辑传播。
-- **[AnyV2V](https://github.com/TIGER-AI-Lab/AnyV2V)** - 一个通用的视频编辑框架，支持将任何图像编辑工具扩展到视频。
 - **[Go-with-the-Flow](https://github.com/Eyeline-Research/Go-with-the-Flow)** - 使用光流引导的视频扩散模型编辑。
-- **[CoDeF](https://github.com/QiangZhou/CoDeF)** - 官方实现的 Content Deformation Fields，支持高质量的视频重绘和编辑。
-- **[TokenFlow](https://github.com/omerbt/TokenFlow)** - 官方实现，支持基于文本和关键帧的一致性编辑。
 - **[I2VEdit](https://github.com/Vicky0522/I2VEdit)** - 首帧引导的 I2V 编辑代码。
+- **[ReVideo](https://github.com/MC-E/ReVideo)** - 旨在解决本地视频编辑的问题。编辑目标包括视觉内容和运动轨迹的修改。
+- **[AnyV2V](https://github.com/TIGER-AI-Lab/AnyV2V)** - 一个通用的视频编辑框架，支持将任何图像编辑工具扩展到视频。
+
+
+
+
 ---
 
 ## 🤝 Contributing
