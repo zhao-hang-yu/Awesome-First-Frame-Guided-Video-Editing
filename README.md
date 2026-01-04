@@ -54,7 +54,7 @@ It is also guided by the first frame, but not the "model's guidance for subseque
 2. **In-Context Sync-LoRA for Portrait Video Editing**, 2025-12, https://arxiv.org/abs/2512.03013
     > 简介: 专为肖像/说话人视频设计的编辑方法。采用 In-Context LoRA 范式，将“源视频”和“编辑后的首帧”作为上下文条件输入给模型，而非传统的特征注入。核心优势在于通过同步性筛选数据训练，实现了在大幅改变外观的同时，保持帧级精确的口型、眨眼和视线同步。【肖像专用 / 上下文学习】
 
-3. **First Frame Is the Place to Go for Video Content Customization**, 2025-11,https://arxiv.org/abs/2511.15700
+3. **First Frame Is the Place to Go for Video Content Customization**, 2025-11, https://arxiv.org/abs/2511.15700
     > 简介: 论文的出发点是重新审视视频生成模型中“First Frame” 的作用。不同视角：视频模型隐含地将第一帧视为一个概念记忆缓冲区。【多对象编辑入一个视频】
 
 4. **Edit-Your-Interest: Efficient Video Editing via Feature Most-Similar Propagation**, 2025-10,https://arxiv.org/pdf/2510.13084
