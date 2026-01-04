@@ -1,4 +1,5 @@
-<img width="2631" height="193" alt="image" src="https://github.com/user-attachments/assets/0b18f493-2bdf-428f-8ff5-0e42775beb7c" /># Awesome-First-Frame-Guided-Video-Editing 🎬
+<img width="2631" height="193" alt="image" src="https://github.com/user-attachments/assets/0b18f493-2bdf-428f-8ff5-0e42775beb7c" />
+# Awesome-First-Frame-Guided-Video-Editing 🎬
 
 > This repository catalogs cutting-edge research papers, practical tools, and open source projects for First-Frame Guided Video Editing, where edits on the first frame are propagated to the entire video.
 
