@@ -57,7 +57,7 @@ It is also guided by the first frame, but not the "model's guidance for subseque
 3. **First Frame Is the Place to Go for Video Content Customization**, 2025-11, https://arxiv.org/abs/2511.15700
     > 简介: 论文的出发点是重新审视视频生成模型中“First Frame” 的作用。不同视角：视频模型隐含地将第一帧视为一个概念记忆缓冲区。【多对象编辑入一个视频】
 
-4. **Edit-Your-Interest: Efficient Video Editing via Feature Most-Similar Propagation**, 2025-10,https://arxiv.org/pdf/2510.13084
+4. **Edit-Your-Interest: Efficient Video Editing via Feature Most-Similar Propagation**, 2025-10, https://arxiv.org/pdf/2510.13084
     > 简介: 利用时空特征记忆库SFM、特征最相似传播FMP保障轻量化和高清晰度，利用交叉注意力图自动提取感兴趣对象的掩码做到背景保留。【文本指导的视频编辑】
 
 5. **InsViE-1M: Effective Instruction-based Video Editing with Elaborate Dataset Construction (InsV2V)**, 2024-12, https://openaccess.thecvf.com/content/ICCV2025/html/Wu_InsViE-1M_Effective_Instruction-based_Video_Editing_with_Elaborate_Dataset_Construction_ICCV_2025_paper.html
